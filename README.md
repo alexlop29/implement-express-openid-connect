@@ -29,7 +29,7 @@ Auto format
 npm run format
 ```
 
-## Prerequisites
+## 🚧 Prerequisites
 - [Follow Auth0's Express.js Quick Start Guide.](https://auth0.com/docs/quickstart/webapp/express/01-login)
 - Add the project-specific environment variables to a `.env` file.
 
