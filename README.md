@@ -19,23 +19,17 @@ npm run start-debug
 
 ### Development Libraries
 - [Nodemon](https://nodemon.io/)
+- [Prettier](https://prettier.io/)
 
+## 🌈 Code Quality
+
+Auto format
 
 ```
-nvm use 20.9.0
-npm init --template typescript
-npm install express
-npm install express-openid-connect
-npm install dotenv
-npm i --save-dev @types/express
-npm install --save-dev --save-exact prettier
-npm install --save-dev nodemon
-npm install --save-dev ts-node
+npm run format
 ```
 
-## Requirements
-- Configure Auth0 Application
-- Add relevant environment variables to dotenv
+## Prerequisites
+- [Follow Auth0's Express.js Quick Start Guide.](https://auth0.com/docs/quickstart/webapp/express/01-login)
+- Add the project-specific environment variables to a `.env` file.
 
-## References
-- Include the Quick Start Guide for an Expressjs RWA
